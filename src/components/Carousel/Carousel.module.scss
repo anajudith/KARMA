@@ -1,0 +1,31 @@
+.carousel{
+   
+    h3 {
+        color: black;
+    }
+
+    p {
+        color: black;
+    }
+
+    img {
+        width: 100%;
+        height: 347px;
+    }
+
+    button {
+        background-color: #F55D17;
+        color: #FFFF;
+
+        &:hover {
+            transition: 0.5s;
+            background-color: #FFFF;
+            color: #F55D17;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+

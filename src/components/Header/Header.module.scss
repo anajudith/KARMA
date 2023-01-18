@@ -1,30 +1,46 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #a6a6e5;
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    background-color: #02486B;
     width: 100%;
-    height: 100%;
+    justify-items: center;
     img{
-        width: 100px;
-        // background-color: red;
-        padding: 27px 36px 27px 0;
-        color: black;
-        list-style: none;
-        
+        width: 72%;
+        margin: 0 0 0 18px;
     }
     a{
         text-decoration: none;
-        color: black;
-        width: 20%;
+        color: white;
+        width: 90%;
+        height: 74px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 100;
+        
     }
     ul {
         display: flex;
-        width: 40%;
+        width: 100%;
         gap: 1em;
         justify-content: space-between;
         align-items: center;
         justify-content: center;
-        
+        margin: 0;
+        padding-left: 0;        
     }
 }
+
+@media screen and (max-width: 480px) {
+    //DISPOSITIVOS MOVEIS
+    //Se a largura de um dispositivo for inferior a 480px tais coisas
+    //serão aplicadas
+    .text {
+      font-size: 16px;
+    }
+}
+
+//320px — 480px: dispositivos móveis
+//481px — 768px: iPads, tablets
+//769px — 1024px: telas pequenas, laptops
+//1025px — 1200px: desktops, telas grandes
+//1201px e acima —  telas muito grandes, TVs
