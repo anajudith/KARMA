@@ -1,5 +1,6 @@
 import React from 'react'
 import CarouselTeste from '../../components/Carousel'
+import MultiCarousel from '../../components/MultiCarousel'
 import styles from "./Home.module.scss"
 import Container from '../../components/Container'
 
@@ -14,8 +15,8 @@ function Home() {
       <p>Vistoria, etc etc etc?</p>
       <p>Temos a solução perfeita para o seu veículo!</p>
     </Container>
-   
-    
+
+    <div><MultiCarousel></MultiCarousel></div>    
     </>
   )
 }

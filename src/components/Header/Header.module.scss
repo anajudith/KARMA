@@ -16,6 +16,10 @@
         align-items: center;
         justify-content: center;
         font-weight: 100;
+
+        &:hover {
+            color: #F55D17
+        }
         
     }
     ul {
