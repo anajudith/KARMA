@@ -23,9 +23,17 @@
             color: #F55D17;
         }
     }
-
-    a {
-        text-decoration: none;
-    }
 }
 
+
+
+
+@media screen and (min-width: 1899px) {
+    //telas muito grandes, TVs
+    //Se a largura de um dispositivo for inferior a 480px tais coisas
+    //serão aplicadas
+    .carousel {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

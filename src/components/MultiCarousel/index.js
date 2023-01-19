@@ -2,8 +2,6 @@ import styles from "./MultiCarousel.module.scss";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Container from "../Container";
-// import banner2 from "./banner2.jpg"
-// import banner1 from "./banner1.jpg"
 
 import dbMultiCarousel from "../../json/dbMultiCarousel";
 
@@ -29,12 +27,13 @@ const responsive = {
 // It will work on real devices.
 const Simple = ({ deviceType }) => {
   return (
-    <Container>
+    <Container className={styles.container}>
       <Carousel
+        infinite={true}
         className={styles.carousel}
         partialVisbile
         deviceType={deviceType}
-        itemClass="image-item"
+        itemClass="carousel-item-padding-40-px"
         responsive={responsive}
         removeArrowOnDeviceType={["tablet", "mobile"]}
         showDots={true}
@@ -43,7 +42,7 @@ const Simple = ({ deviceType }) => {
           return (
             <div style={{ width: 300, height: 300 }}>
               <img src={item.src} alt={item.titulo}></img>
-              <p>Teste</p>
+              <p>{item.titulo}</p>
             </div>
           );
         })}

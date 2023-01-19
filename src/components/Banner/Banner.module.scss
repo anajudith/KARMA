@@ -1,0 +1,35 @@
+.container{
+
+
+    img {
+        position: relative;
+        width: 100%;
+
+    }
+
+   h1{
+    position: absolute;
+
+   }
+
+   button {
+    background-color: #F55D17;
+    color: #FFFF;
+    position: absolute;
+    font-size: 32px;
+    width: 423px !important;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+
+    left: 410px;
+    bottom: -705px;
+    &:hover {
+        transition: 0.5s;
+        background-color: #FFFF;
+        color: #F55D17;
+    }
+}
+}
+

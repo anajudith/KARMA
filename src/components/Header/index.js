@@ -28,7 +28,7 @@ function Header() {
             </HeaderLink>
             <HeaderLink url='./Budget'>
                 <ButtonStyle text="Orçamento" />
-                <ButtonStyle text="(31) 982160678" />
+                <ButtonStyle text="(31) 999999999" />
             </HeaderLink>
         </ul>
     </header>

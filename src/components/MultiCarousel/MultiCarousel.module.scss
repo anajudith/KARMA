@@ -1,4 +1,31 @@
 .carousel {
-    width: 50%;
+  width: 50%;
+  height: 50%;
+  //   margin-bottom: 34px;
 
+  li {
+    padding: 0 15px;
+    img {
+      width: 78%;
+      height: 70%;
+    }
+
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  ul {
+    gap: 10px;
+    margin-bottom: 50px;
+    // background-color: red;
+  }
+
+  .react-multi-carousel-dot-list {
+    background-color: red;
+  }
+
+  .react-multi-carousel-dot {
+    background-color: red;
+  }
 }

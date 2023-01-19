@@ -1,24 +1,24 @@
-
-import banner1 from './imagens/banner1.jpg'
-import banner2 from './imagens/banner2.jpg'
-import KARMA1 from './imagens/KARMA1.png'
+import BANNERKARMA from './imagens/BannerKarma3.png'
+import banner3 from './imagens/banner3.png'
+import banner4 from './imagens/banner4.png'
 
 const Banners = [
     {
       "id": 1,
-      "src": banner1,
+      "src": BANNERKARMA,
       "titulo": "O labirinto do Logcat"
     },
     {
       "id": 2,
-      "src": banner2,
+      "src": banner4,
       "titulo": "Um componente no espaço"
     },
+
     {
-      "id": 3,
-      "src": KARMA1,
-      "titulo": "O poderoso JavaScript"
-    }
+        "id": 4,
+        "src": banner3,
+        "titulo": "O poderoso JavaScript"
+      }
   ]
   
   export default Banners;
