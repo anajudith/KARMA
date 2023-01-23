@@ -14,7 +14,7 @@ function AppRoutes() {
              <Route index element={<Home />}></Route>
              <Route path="About" element={<About />}></Route>
              <Route path="Products" element={<Products />}></Route>
-             <Route path="Blog" element={<Blog />}></Route>
+             {/* <Route path="Blog" element={<Blog />}></Route> */}
              <Route path="Budget" element={<Budget />}></Route>
             </Route>
         </Routes>

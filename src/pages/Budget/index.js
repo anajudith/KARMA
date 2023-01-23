@@ -1,10 +1,11 @@
 import Banner from "../../components/Banner"
+import Container from "../../components/Container"
 
 
 function Budget() {
   return (
     <>
-        <Banner />
+       <Container>CILADA IRMÃO</Container>
     </>
   )
 }

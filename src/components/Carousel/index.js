@@ -4,7 +4,7 @@ import ButtonStyle from "../Button";
 import db from "../../json/db.js";
 import styles from "./Carousel.module.scss";
 
-function CarouselTeste() {
+function CarouselPage() {
   return (
     <Carousel className={styles.carousel}>
       {db.map((item) => {
@@ -25,4 +25,4 @@ function CarouselTeste() {
   );
 }
 
-export default CarouselTeste;
+export default CarouselPage;

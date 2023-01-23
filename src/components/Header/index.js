@@ -20,10 +20,10 @@ function Header() {
             <HeaderLink url='./Products'>
                 Produtos
             </HeaderLink>
-            <HeaderLink url='./Blog'>
+            {/* <HeaderLink url='./Blog'>
                 Blog
-            </HeaderLink>
-            <HeaderLink url='./Contato'>
+            </HeaderLink> */}
+            <HeaderLink url='./Budget'>
                 Contato
             </HeaderLink>
             <HeaderLink url='./Budget'>
