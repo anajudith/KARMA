@@ -1,8 +1,10 @@
 import React from 'react'
-
+import MapPage from '../../components/MapPage'
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <MapPage/>
+    </div>
   )
 }
 

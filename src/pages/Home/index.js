@@ -10,7 +10,7 @@ import Texto from "../../components/Titulo/Texto";
 import ButtonStyle from "../../components/Button";
 import HeaderLink from "../../components/HeaderLink";
 import teste from "./teste.gif";
-
+import MapPage from "../../components/MapPage";
 function Home() {
   return (
     <>
@@ -50,7 +50,11 @@ function Home() {
             </HeaderLink>
           </div>
         </Container>
+        <div className={styles.map}>
+          <MapPage />
+        </div>
       </div>
+
     </>
   );
 }
